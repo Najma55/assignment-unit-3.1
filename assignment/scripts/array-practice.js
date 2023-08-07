@@ -58,9 +58,10 @@ console.log('Added an animal to end,', animalArray);
 
 // 4.a. TODO: Create a variable `dessert` and assign it to a new food.
 //      Add the `dessert` at the end of your array & log the array
-let dessert = 'newfood'
-favoriteFoods.push('desert');
-console.log('Added new food to end,' , favoriteFoods);
+let dessert = 'Cheesecake';
+favoriteFoods.push(dessert)
+console.log('added dessert,' , dessert)
+
 
 // Example: Add an animal to the beginning using Array.unshift
 let animalToUnshift = 'walrus';
@@ -69,9 +70,9 @@ console.log(`Added an animal to beginning: ${animalArray}`);
 
 // 4.b. TODO: Create a variable `entree` and assign it to a new food.
 //      Add the `entree` at the beginning of the array & log the array
-favoriteFoods.push('entree');
-console.log('added new food to the end,' , favoriteFoods);
-
+let entree = 'newFoodToUnshift'
+favoriteFoods.unshift (entree);
+console.log('Added new Food;' , entree);
 // Example: Remove the last animal by using Array.pop
 let removedAnimal = animalArray.pop();
 console.log('Removed the last animal', removedAnimal);
@@ -84,8 +85,8 @@ let colors = ['orange', 'yellow', 'green', 'teal'];
 //      at the end of your array & assign it to `lastColor`.
 //      Console log both the color removed and the updated array.
 let lastColor = colors.pop();
-console.log('removed the color,' , lastColor);
-console.log('updated array,' , colors);
+console.log('Removed the last color' , lastColor);
+console.log('Colors are now', colors);
 
 // Example: Remove the first color using Array.shift
 removedAnimal = animalArray.shift();
